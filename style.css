@@ -529,7 +529,9 @@
 }
 
 @media screen and (max-width:600px){
-    
+    .body{
+        overflow: hidden;
+    }
     .navbar__s3,.where,.navbarline,.navbar__s1{
         display: none;
     }
@@ -541,13 +543,15 @@
         display: flex;
         font-size: 16px;
         width: 90%;
+        padding: 20px;
         background-color: white;
         align-items: center;
         justify-content: space-between;
     }
 
     .options div{
-        gap: 5px;
+        padding: 5px;
+        gap: 2px;
         font-size: 10px;
     }
     .section3{
@@ -576,6 +580,11 @@
         display: block;
         margin-top: 20%;
 
+    }
+    .image-letter{
+        width: 100%;
+        font-size: 10px;
+        padding: 10px;
     }
     
     
